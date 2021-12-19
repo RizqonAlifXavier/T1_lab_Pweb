@@ -13,3 +13,8 @@ hr{
     width: 30%;
     border-color: black;
 }
+
+/* latihan 3.4 : Menggunakan grouping selector */
+h1,h2,h3{
+    text-align: center;
+}
