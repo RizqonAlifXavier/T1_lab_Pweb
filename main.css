@@ -2,3 +2,14 @@
 body{
     background-color: #C3B091 ;
 }
+
+/* latihan 3.3 : Merias Horizontal Line */
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-width: 15px;
+    border-style: none;
+    border-top-style: dotted;
+    width: 30%;
+    border-color: black;
+}
