@@ -50,6 +50,12 @@ nav a {
     text-decoration: none;
 }
 
+/* latihan 3.7 menggunakan pseudo class Last-Child dan Float right */
 .navbar li:last-child{
     float: right;
+}
+
+/* latihan 3.8 menggunakan Pseudo class hover */
+nav li:hover{
+    background-color: black;
 }
