@@ -122,7 +122,16 @@ div.content-form {
     max-width: 70%;
     margin: auto;
 }
-
 div.content-form  h1{
     margin-bottom : 35px;
+}
+
+/* Latihan 4.4 Form login berada pada tengah layar menggunakan flexbox */
+
+div.form-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin-bottom: 100px;
 }
