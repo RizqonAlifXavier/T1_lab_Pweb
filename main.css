@@ -160,4 +160,16 @@ div.my-portofolio{
     padding: 25px;
 }
 
+/* Latihan 4.7 Media Query pada portofolio */
+@media screen and (max-width: 850px) {
+    .my-portofolio img {
+        width: 50%;
+    }
+}
 
+@media screen and (max-width: 500px) {
+    .my-portofolio img{
+        width: 100%;
+    }
+    
+}
