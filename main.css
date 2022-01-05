@@ -105,9 +105,24 @@ nav {
     top: 0px;
 }
 
+/* Latihan 4.2 fixed footer */
 .footer {
     position: fixed;
     left: 0px;
     bottom: 0px;
     width: 100%;
+}
+
+/* Latihan 4.3 Form register */
+div.form-register {
+    margin-bottom: 100px;
+}
+
+div.content-form {
+    max-width: 70%;
+    margin: auto;
+}
+
+div.content-form  h1{
+    margin-bottom : 35px;
 }
