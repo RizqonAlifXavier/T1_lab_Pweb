@@ -35,7 +35,7 @@ nav{
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    background-color: grey;
+    background-color: black;
 }
 
 nav li {
@@ -43,10 +43,12 @@ nav li {
 }
 
 nav a {
+    float: left;
+    margin-left: 10px;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 2px;
     text-decoration: none;
 }
 
@@ -95,4 +97,10 @@ tr:hover{
     padding: 10px;
     text-align: center;
     margin-top: 15px;
+}
+
+/* Latihan 4.1 Sticky Navbar */
+nav {
+    position: sticky;
+    top: 0px;
 }
