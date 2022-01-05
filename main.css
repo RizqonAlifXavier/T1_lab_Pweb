@@ -173,3 +173,32 @@ div.my-portofolio{
     }
     
 }
+
+/* Latihan 4.8 Input */
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type=button],[type=submit]{
+    background-color: #1a1d1b;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
